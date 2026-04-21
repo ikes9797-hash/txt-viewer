@@ -1,0 +1,21 @@
+{
+  "appId": "com.warmreader.txtviewer",
+  "appName": "TXT 뷰어",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#f8f3e9",
+      "overlaysWebView": false
+    }
+  }
+}
